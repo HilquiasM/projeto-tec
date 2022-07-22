@@ -60,6 +60,10 @@ body {
     background-size: 35%;
 }
 
+.circle:before {
+    
+}
+
 .first-text {
     text-align: center;
     font-family: var(--fonte);
@@ -239,13 +243,25 @@ body {
     line-height: 33px;
     margin-right: 350px;
     margin-left: 350px;
+    text-align: center;
 }
 
 .conjf {
+    display: flex;
     background-color: moccasin;
     margin-top: 50px;
     height: 250px;
     width: 100vw;
+}
+
+.conjf img {
+    width:500px;
+}
+
+.conjf img:hover {
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+    opacity: 0.9;
 }
 
 .bt {
