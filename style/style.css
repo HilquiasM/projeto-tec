@@ -372,3 +372,10 @@ body {
     width: 400px;
     height: 450px;
 }
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.367);
+    color: white;
+    padding: 15px;
+}
