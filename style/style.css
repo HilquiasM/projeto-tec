@@ -17,10 +17,14 @@
     --fonte: 'Inter';
 }
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
+
+}
+
+@media only screen and (ma) {
 
 }
 
@@ -51,7 +55,7 @@ body {
     flex-direction: column;
 
     height: 700px;
-    width: 100%;
+    width: 100vw;
     background-image: url('../imagens/circulo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -332,7 +336,8 @@ body {
 }
 
 .conjf img {
-    width:500px;
+    width:441.5px;
+
 }
 
 .conjf img:hover {
@@ -414,14 +419,14 @@ body {
 
 .rep1 {
     height: 250px;
-    width: 400px;
+    width: 600px;
     padding: 50px 25px 10px 100px;
     
 }
 
 .rep2 {
     height: 250px;
-    width: 650px;
+    width: 600px;
     padding: 50px 25px 10px 50px;
 }
 
@@ -458,13 +463,13 @@ body {
     .rep1 {
         height: 300px;
         width: 410px;
-        padding: 50px 0px 15px 0px;
+        padding: 50px 0px;
     }
 
     .rep2 {
         height: 300px;
         width: 410px;
-        padding: 50px 0px 15px 0px;
+        padding: 50px 0px;
     }
 
     .tt3 {
@@ -544,8 +549,8 @@ body {
     }
 
     .tp4 {
-        margin-left: -10px;
-        margin-right: 38px;
+        margin-left: 0px;
+        margin-right: 48px;
         padding-top: 250px;
         padding-left: 30px;
     }
